@@ -173,7 +173,7 @@
 .about-preview-section {
   width: 100%;
   background: var(--superficie);
-  padding: 90px 20px 40px;
+  padding: 80px 20px 36px;
 }
 
 .about-preview-container {
@@ -237,8 +237,8 @@
 
 .features-section {
   width: 100%;
-  background: var(--superficie);
-  padding: 50px 20px 80px;
+  background: var(--gris-muy-claro);
+  padding: 56px 20px 64px;
 }
 
 .features-container {
@@ -251,9 +251,21 @@
   align-items: start;
 }
 
+.features-container--centered {
+  grid-template-columns: repeat(2, minmax(260px, 360px));
+  justify-content: center;
+}
+
 .feature-circle-card {
+  display: block;
   text-align: center;
   padding: 10px 20px;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.feature-circle-card:hover {
+  transform: translateY(-4px);
 }
 
 .feature-circle {
@@ -286,6 +298,146 @@
   font-size: 1rem;
   line-height: 1.7;
   color: var(--texto);
+}
+
+.home-sections-section,
+.home-directories-section {
+  width: 100%;
+  background: var(--superficie);
+  padding: 58px 20px;
+}
+
+.home-sections-section {
+  background: var(--gris-muy-claro);
+}
+
+.home-directories-section {
+  background: var(--verde-oscuro);
+}
+
+.home-sections-container,
+.home-workshops-container,
+.home-directories-container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.home-section-heading {
+  margin-bottom: 28px;
+}
+
+.home-section-heading span {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--verde-principal);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-section-heading h2 {
+  font-family: var(--fuente-titulos);
+  font-size: 3rem;
+  line-height: 0.98;
+  text-transform: uppercase;
+  color: var(--verde-oscuro);
+}
+
+.home-directories-section .home-section-heading span,
+.home-directories-section .home-section-heading h2 {
+  color: var(--blanco);
+}
+
+.institutional-list {
+  display: grid;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.institutional-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 78px;
+  border-bottom: 1px solid var(--borde-suave);
+  color: inherit;
+}
+
+.institutional-row h3 {
+  font-family: var(--fuente-titulos);
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--verde-oscuro);
+  text-transform: uppercase;
+}
+
+.institutional-row i {
+  color: var(--verde-principal);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.home-workshops-section {
+  width: 100%;
+  background: var(--superficie);
+  padding: 58px 20px 70px;
+}
+
+.home-section-heading--light span,
+.home-section-heading--light h2 {
+  color: var(--verde-oscuro);
+}
+
+.home-workshops-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+}
+
+.home-workshop-pill {
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: var(--verde-oscuro);
+  color: var(--blanco);
+  font-family: var(--fuente-titulos);
+  font-size: 1.55rem;
+  line-height: 1.05;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home-directories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.home-directory-card {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background: var(--superficie);
+  border-left: 6px solid var(--amarillo);
+  color: var(--verde-oscuro);
+}
+
+.home-directory-card h3 {
+  font-family: var(--fuente-titulos);
+  font-size: 1.7rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.home-directory-card i {
+  align-self: flex-end;
+  font-size: 1.2rem;
 }
 
 .home-news-section {

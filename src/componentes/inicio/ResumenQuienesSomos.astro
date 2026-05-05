@@ -7,7 +7,7 @@ import { quienesSomosResumen } from "../../data/siteData";
     <div class="about-preview-content">
       <span class="about-preview-kicker">{quienesSomosResumen.titulo}</span>
       <h2>{quienesSomosResumen.subtitulo}</h2>
-      <p>{quienesSomosResumen.texto}</p>
+      {quienesSomosResumen.texto && <p>{quienesSomosResumen.texto}</p>}
 
       <a href={quienesSomosResumen.href} class="about-preview-button">
         {quienesSomosResumen.boton}

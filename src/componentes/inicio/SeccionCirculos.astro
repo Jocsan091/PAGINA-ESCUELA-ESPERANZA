@@ -1,36 +1,59 @@
-<section class="features-section">
-  <div class="features-container">
-    <article class="feature-circle-card">
-      <div class="feature-circle">
-        <i class="fa-solid fa-graduation-cap"></i>
-      </div>
-      <h3>Excelencia Academica</h3>
-      <p>
-        Formamos estudiantes con compromiso, esfuerzo y una educacion centrada
-        en el aprendizaje integral.
-      </p>
-    </article>
+---
+import {
+  directivas,
+  seccionesInstitucionales,
+  talleres
+} from "../../data/siteData";
+import { rutas } from "../../lib/rutas";
+---
 
-    <article class="feature-circle-card">
-      <div class="feature-circle">
-        <i class="fa-solid fa-heart"></i>
-      </div>
-      <h3>Comunidad y Valores</h3>
-      <p>
-        Promovemos el respeto, la convivencia y el trabajo colaborativo dentro
-        y fuera del aula.
-      </p>
-    </article>
+<section class="home-directories-section">
+  <div class="home-directories-container">
+    <div class="home-section-heading">
+      <span>Comunidad</span>
+      <h2>Directivas</h2>
+    </div>
 
-    <article class="feature-circle-card">
-      <div class="feature-circle">
-        <i class="fa-solid fa-futbol"></i>
-      </div>
-      <h3>Actividades Escolares</h3>
-      <p>
-        Impulsamos talleres, deporte, cultura y experiencias que fortalecen el
-        desarrollo de cada estudiante.
-      </p>
-    </article>
+    <div class="home-directories-grid">
+      {directivas.map((directiva) => (
+        <a href={rutas.directivas} class="home-directory-card">
+          <h3>{directiva}</h3>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="home-sections-section">
+  <div class="home-sections-container">
+    <div class="home-section-heading">
+      <span>Escuela</span>
+      <h2>Informacion institucional</h2>
+    </div>
+
+    <div class="institutional-list">
+      {seccionesInstitucionales.map((seccion) => (
+        <a href={`${rutas.institucional}#${seccion.id}`} class="institutional-row">
+          <h3>{seccion.titulo}</h3>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="home-workshops-section">
+  <div class="home-workshops-container">
+    <div class="home-section-heading home-section-heading--light">
+      <span>Talleres</span>
+      <h2>Talleres escolares</h2>
+    </div>
+
+    <div class="home-workshops-strip">
+      {talleres.map((taller) => (
+        <a href={rutas.talleres} class="home-workshop-pill">{taller}</a>
+      ))}
+    </div>
   </div>
 </section>
