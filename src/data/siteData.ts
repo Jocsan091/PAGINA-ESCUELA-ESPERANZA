@@ -74,13 +74,13 @@ export const directivas = [
         descripcion: textoTemporal
       },
       {
-        nombre: "Juan Carlos",
+        nombre: "Juan Carlos Arriagada Daigre",
         cargo: "Inspector",
         imagen: "/images/IspectorJuanCarlos.jpeg",
         descripcion: textoTemporal
       },
       {
-        nombre: "Teresa Rojas",
+        nombre: "Teresa Rojas Albretch",
         cargo: "Jefa UTP",
         imagen: "/images/JefaUtpTeresaRojas.jpeg",
         descripcion: textoTemporal
