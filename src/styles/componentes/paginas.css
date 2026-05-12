@@ -756,10 +756,6 @@
   box-shadow: 0 10px 26px var(--sombra-suave);
 }
 
-.mission-panel:nth-child(2) {
-  border-left-color: var(--amarillo);
-}
-
 .mission-panel-icon {
   width: 92px;
   height: 92px;
@@ -769,11 +765,6 @@
   background: var(--verde-principal);
   color: var(--blanco);
   font-size: 2.05rem;
-}
-
-.mission-panel:nth-child(2) .mission-panel-icon {
-  background: var(--amarillo);
-  color: var(--verde-oscuro);
 }
 
 .mission-panel-content h2 {
