@@ -20,8 +20,8 @@ export const menu = [
     href: rutas.directivas,
     children: [
       { label: "Equipo directivo", href: `${rutas.directivas}equipo-directivo/` },
-      { label: "Centro general de padres y apoderados", href: `${rutas.directivas}centro-padres/` },
-      { label: "Centro general de estudiantes", href: `${rutas.directivas}centro-alumnos/` },
+      { label: "Centro General de Padres y Apoderados (CGPA)", href: `${rutas.directivas}centro-padres/` },
+      { label: "Centro de Alumnos (CEAL)", href: `${rutas.directivas}centro-alumnos/` },
       { label: "Programa de Integracion Escolar (PIE)", href: rutas.pie },
       { label: "Convivencia escolar", href: rutas.convivenciaEscolar },
       { label: "Departamento de orientacion", href: rutas.orientacion },

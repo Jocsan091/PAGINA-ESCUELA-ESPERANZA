@@ -1,6 +1,6 @@
 ---
 title: "Presidencia"
-categoria: "Directiva - Centro general de padres y apoderados"
+categoria: "Directiva - Centro General de Padres y Apoderados (CGPA)"
 grupo: "centro-padres"
 orden: 1
 nombre: "Escuela Esperanza"

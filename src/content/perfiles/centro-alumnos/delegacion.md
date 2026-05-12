@@ -1,5 +1,5 @@
 ---
-categoria: Directiva - Centro general de alumnos
+categoria: Directiva - Centro de Alumnos (CEAL)
 grupo: centro-alumnos
 orden: 3
 title: Delegacion

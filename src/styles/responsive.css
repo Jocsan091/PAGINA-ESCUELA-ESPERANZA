@@ -98,6 +98,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .footer-main {
+    gap: 34px 28px;
+  }
+
   .news-page-card {
     grid-template-columns: 1fr;
   }

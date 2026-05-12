@@ -1,6 +1,6 @@
 ---
 title: "Secretaria"
-categoria: "Directiva - Centro general de alumnos"
+categoria: "Directiva - Centro de Alumnos (CEAL)"
 grupo: "centro-alumnos"
 orden: 2
 nombre: "Escuela Esperanza"

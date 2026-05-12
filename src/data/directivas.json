@@ -29,7 +29,7 @@
       ]
     },
     {
-      "titulo": "Centro general de padres y apoderados",
+      "titulo": "Centro General de Padres y Apoderados (CGPA)",
       "slug": "centro-padres",
       "integrantes": [
         {
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "titulo": "Centro general de alumnos",
+      "titulo": "Centro de Alumnos (CEAL)",
       "slug": "centro-alumnos",
       "integrantes": [
         {
