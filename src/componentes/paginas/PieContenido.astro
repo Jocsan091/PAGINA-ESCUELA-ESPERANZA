@@ -16,12 +16,21 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
     <div class="pie-page-container">
       <div class="pie-intro-panel">
         <div class="pie-intro-copy">
-          <span>Proyecto de integracion escolar</span>
-          <h2>Acompanamiento y apoyo educativo</h2>
+          <span>{pieContenido.etiqueta}</span>
+          <h2>{pieContenido.encabezado}</h2>
           <p>{pieContenido.introduccion}</p>
         </div>
 
-        <img src={pieContenido.imagenPrincipal} alt="Proyecto de integracion escolar" />
+        <img src={pieContenido.imagenPrincipal} alt={pieContenido.etiqueta} />
+      </div>
+
+      <div class="pie-highlight-grid">
+        {pieContenido.destacados.map((destacado) => (
+          <article class="pie-highlight-card">
+            <strong>{destacado.numero}</strong>
+            <span>{destacado.texto}</span>
+          </article>
+        ))}
       </div>
 
       <div class="pie-info-grid">
@@ -40,6 +49,52 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
           </article>
         ))}
       </div>
+
+      <div class="pie-support-layout">
+        {pieContenido.necesidades.map((grupo) => (
+          <article class="pie-support-card">
+            <h2>{grupo.titulo}</h2>
+            <ul>
+              {grupo.items.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+
+      <section class="pie-objectives-panel">
+        <div class="pie-staff-heading">
+          <span>Objetivos Específicos</span>
+          <h2>Trabajo del Programa de Integración Escolar</h2>
+        </div>
+
+        <div class="pie-objectives-list">
+          {pieContenido.objetivosEspecificos.map((objetivo, index) => (
+            <article>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <p>{objetivo}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="pie-team-section">
+        <div class="pie-staff-heading">
+          <span>Equipo PIE</span>
+          <h2>{pieContenido.equipoTitulo}</h2>
+        </div>
+
+        <div class="pie-team-table">
+          {pieContenido.personal.map((persona) => (
+            <article>
+              <h3>{persona.nombre}</h3>
+              <span>{persona.cargo}</span>
+              <strong>{persona.horas} hrs</strong>
+            </article>
+          ))}
+        </div>
+      </section>
     </div>
   </section>
 </main>

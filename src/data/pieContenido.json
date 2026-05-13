@@ -1,44 +1,151 @@
 {
   "titulo": "PIE",
   "subtitulo": "Comunidad escolar",
-  "introduccion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.",
+  "etiqueta": "Programa de Integración Escolar",
+  "encabezado": "Plan de Gestión Programa de Integración Escolar",
+  "introduccion": "El Programa de Integración Escolar es una de las instancias de apoyo integral que nuestro establecimiento pone a disposición de todos aquellos estudiantes que han sido diagnosticados con alguna de las Necesidades Educativas Especiales, según los criterios diagnóstico que establece el Decreto de Ley Nº 170/09 de la sección de Educación Especial del Ministerio de Educación.",
   "imagenPrincipal": "/images/slide11.png",
+  "destacados": [
+    {
+      "numero": "2026",
+      "texto": "Año"
+    },
+    {
+      "numero": "Pre-Kínder a 8°",
+      "texto": "El PIE entrega una cobertura de atención completa a todos los cursos de la escuela desde pre kínder hasta octavo año básico"
+    },
+    {
+      "numero": "15",
+      "texto": "Integrantes del equipo PIE"
+    }
+  ],
   "secciones": [
     {
-      "titulo": "Que somos?",
+      "titulo": "Nuestra realidad de escuela",
       "texto": [
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.",
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+        "El objetivo del Programa de Integración Escolar de la escuela Esperanza está construido sobre la base conceptual de la Inclusión, uno de los sellos educativos de nuestro Proyecto Educativo Institucional, que, desde un punto de vista integral, propende a la aceptación y riqueza que podemos encontrar en las diferencias y los aportes que se pueden construir desde la individualidad.",
+        "En esta labor se encuentra trabajando el Equipo de Integración desde sus inicios, hasta hoy, donde ya somos una realidad consolidada en constante proceso de evaluación de nuestras prácticas y mejora."
       ],
       "imagen": "/images/slide1.png"
     },
     {
-      "titulo": "Que hacemos?",
+      "titulo": "Objetivo General",
       "texto": [
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.",
-        "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+        "Contribuir en el mejoramiento continuo de la calidad de la educación, favoreciendo la inclusión y atención a la diversidad de todos los y las estudiantes del establecimiento en un ambiente de respeto y buen trato, promoviendo el logro de los objetivos académicos, desarrollando habilidades, cognitivas y sociales, especialmente de aquellos que presenten una Necesidad Educativa Especial, con ello favorecer el logro progresivo de aprendizajes."
       ],
       "imagen": "/images/slide2.png"
+    },
+    {
+      "titulo": "Proceso de atención",
+      "texto": [
+        "En nuestra escuela que cuentan con JEC, los apoyos se brindan con la contratación de la educadora diferencial con un mínimo de 10 horas cronológicas por curso, contando con un total de ocho horas pedagógicas en aula común.",
+        "La Escuela cuenta con un aula de recurso. Este espacio está adaptado en espacio y material específico para el trabajo con estudiantes pertenecientes al PIE."
+      ],
+      "imagen": "/images/slide3.png"
     }
   ],
+  "necesidades": [
+    {
+      "titulo": "Necesidades Educativas Especiales de tipo transitorio",
+      "items": [
+        "Trastorno Específico del Lenguaje – TEL.",
+        "Dificultades Específicas de Aprendizaje – DEA.",
+        "Trastorno de Déficit Atencional con y sin Hiperactividad – TDAH.",
+        "Funcionamiento intelectual en rango límite – FIL."
+      ]
+    },
+    {
+      "titulo": "Necesidades Educativas Especiales de tipo permanente",
+      "items": [
+        "Trastorno del Espectro Autista – TEA.",
+        "Discapacidad Intelectual Leve y Moderada – DIL / DIM.",
+        "Graves Alteraciones de la relación y de la comunicación",
+        "Trastorno Motor.",
+        "Discapacidad Visual"
+      ]
+    }
+  ],
+  "objetivosEspecificos": [
+    "Favorecer procesos inclusivos dentro de la comunidad educativa con la participación de diferentes profesionales en la escuela, como parte de los equipos de aula de cada curso, a través del desarrollo del trabajo colaborativo y la co-enseñanza.",
+    "Mantener una comunicación constante, efectiva y formal con las familias de los estudiantes pertenecientes al Programa de Integración Escolar, fortaleciendo los lazos familia escuela y haciéndolos partícipes del proceso de enseñanza aprendizaje de sus hijos e hijas.",
+    "Innovar en sus prácticas pedagógicas, para responder a la multiplicidad de necesidades y trayectorias educativas de los y las estudiantes, acercando a cada uno de ellos el aprendizaje, a través de la diversificación de los caminos que nos llevan a él."
+  ],
+  "equipoTitulo": "Integrantes del equipo PIE",
   "personal": [
     {
-      "nombre": "Escuela Esperanza",
-      "cargo": "Coordinacion PIE",
-      "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "nombre": "Claudia Paulina Pinochet Cid",
+      "cargo": "Coordinadora",
+      "horas": "44"
     },
     {
-      "nombre": "Escuela Esperanza",
-      "cargo": "Equipo profesional",
-      "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "nombre": "Nicol Alondra Oyarce Ramos",
+      "cargo": "Fonoaudióloga",
+      "horas": "44"
     },
     {
-      "nombre": "Escuela Esperanza",
-      "cargo": "Apoyo educativo",
-      "imagen": "/images/logo-escuela.png",
-      "descripcion": "Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza."
+      "nombre": "María Pía Cornejo Mazo",
+      "cargo": "Psicóloga",
+      "horas": "44"
+    },
+    {
+      "nombre": "Francisca Arellano",
+      "cargo": "Terapeuta ocupacional",
+      "horas": "40"
+    },
+    {
+      "nombre": "Barbara Díaz Morales",
+      "cargo": "Kinesióloga",
+      "horas": "09"
+    },
+    {
+      "nombre": "María José García Abaca",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "María Francisca Rivera Salazar",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Jessica Rojas Martínez",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Sylvia Saavedra",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Violeta Aguilar",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Ángela Benavides",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Francisca Bravo",
+      "cargo": "Educadora Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Yasna Díaz",
+      "cargo": "Asistente Diferencial",
+      "horas": "30"
+    },
+    {
+      "nombre": "Paula Mejías",
+      "cargo": "Asistente Diferencial",
+      "horas": "44"
+    },
+    {
+      "nombre": "Constanza Lagos",
+      "cargo": "Asistente Diferencial",
+      "horas": "44"
     }
   ]
 }
