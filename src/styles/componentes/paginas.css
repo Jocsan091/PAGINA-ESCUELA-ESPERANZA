@@ -1290,7 +1290,7 @@
 }
 
 .pie-objectives-panel,
-.pie-team-section {
+.pie-organization-section {
   margin-top: 42px;
 }
 
@@ -1323,22 +1323,22 @@
   line-height: 1.7;
 }
 
-.pie-team-table {
+.pie-organization-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
 }
 
-.pie-team-table article {
-  min-height: 134px;
-  padding: 18px;
+.pie-organization-grid article {
+  min-height: 210px;
+  padding: 20px;
   background: var(--superficie);
   border: 1px solid var(--borde-suave);
   border-top: 5px solid var(--verde-principal);
   border-radius: 8px;
 }
 
-.pie-team-table h3 {
+.pie-organization-grid h3 {
   font-family: var(--fuente-titulos);
   font-size: 1.28rem;
   line-height: 1.05;
@@ -1347,17 +1347,10 @@
   margin-bottom: 8px;
 }
 
-.pie-team-table span,
-.pie-team-table strong {
-  display: block;
+.pie-organization-grid p {
   color: var(--texto);
-  font-size: 0.9rem;
-  line-height: 1.45;
-}
-
-.pie-team-table strong {
-  margin-top: 8px;
-  color: var(--verde-principal);
+  font-size: 0.94rem;
+  line-height: 1.6;
 }
 
 .pie-staff-section {
@@ -1986,7 +1979,7 @@
 
   .pie-highlight-grid,
   .pie-support-layout,
-  .pie-team-table {
+  .pie-organization-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2021,7 +2014,7 @@
   }
 
   .pie-objectives-panel,
-  .pie-team-section {
+  .pie-organization-section {
     margin-top: 30px;
   }
 
@@ -2035,7 +2028,7 @@
     font-size: 1.8rem;
   }
 
-  .pie-team-table article {
+  .pie-organization-grid article {
     min-height: auto;
   }
 

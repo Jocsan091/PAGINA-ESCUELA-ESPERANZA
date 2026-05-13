@@ -15,8 +15,8 @@
       "texto": "El PIE entrega una cobertura de atención completa a todos los cursos de la escuela desde pre kínder hasta octavo año básico"
     },
     {
-      "numero": "15",
-      "texto": "Integrantes del equipo PIE"
+      "numero": "Inclusión",
+      "texto": "permitir el acceso y acabar con todas las formas de discriminación a fin de propiciar el aprendizaje y fundamentalmente la participación."
     }
   ],
   "secciones": [
@@ -70,82 +70,23 @@
     "Mantener una comunicación constante, efectiva y formal con las familias de los estudiantes pertenecientes al Programa de Integración Escolar, fortaleciendo los lazos familia escuela y haciéndolos partícipes del proceso de enseñanza aprendizaje de sus hijos e hijas.",
     "Innovar en sus prácticas pedagógicas, para responder a la multiplicidad de necesidades y trayectorias educativas de los y las estudiantes, acercando a cada uno de ellos el aprendizaje, a través de la diversificación de los caminos que nos llevan a él."
   ],
-  "equipoTitulo": "Integrantes del equipo PIE",
-  "personal": [
+  "organizacionTitulo": "Organización y trabajo del programa",
+  "organizacion": [
     {
-      "nombre": "Claudia Paulina Pinochet Cid",
-      "cargo": "Coordinadora",
-      "horas": "44"
+      "titulo": "Organización",
+      "texto": "La coordinación del Equipo de Integración asume que, para asegurar un correcto funcionamiento del Programa, su trabajo debe ser estructurado, planificado y desarrollado en conjunto, con el objetivo de dar respuesta a las necesidades de los estudiantes, sus familias y el cuerpo docente."
     },
     {
-      "nombre": "Nicol Alondra Oyarce Ramos",
-      "cargo": "Fonoaudióloga",
-      "horas": "44"
+      "titulo": "Planificación",
+      "texto": "Para el año escolar se desarrolla una planificación estratégica con diferentes actividades, tanto administrativas como pedagógicas, que incluye acciones con toda la comunidad escolar."
     },
     {
-      "nombre": "María Pía Cornejo Mazo",
-      "cargo": "Psicóloga",
-      "horas": "44"
+      "titulo": "Reuniones",
+      "texto": "El Equipo de Integración se reúne quincenalmente los días martes de 16:00 a 17:15 hrs y cuando surgen motivos de carácter urgente."
     },
     {
-      "nombre": "Francisca Arellano",
-      "cargo": "Terapeuta ocupacional",
-      "horas": "40"
-    },
-    {
-      "nombre": "Barbara Díaz Morales",
-      "cargo": "Kinesióloga",
-      "horas": "09"
-    },
-    {
-      "nombre": "María José García Abaca",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "María Francisca Rivera Salazar",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Jessica Rojas Martínez",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Sylvia Saavedra",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Violeta Aguilar",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Ángela Benavides",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Francisca Bravo",
-      "cargo": "Educadora Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Yasna Díaz",
-      "cargo": "Asistente Diferencial",
-      "horas": "30"
-    },
-    {
-      "nombre": "Paula Mejías",
-      "cargo": "Asistente Diferencial",
-      "horas": "44"
-    },
-    {
-      "nombre": "Constanza Lagos",
-      "cargo": "Asistente Diferencial",
-      "horas": "44"
+      "titulo": "Familias",
+      "texto": "Además, se realiza una reunión de padres y apoderados por semestre, con el fin de presentar el equipo multidisciplinario, estrategias y metodologías de trabajo, entrega de informes, planificación de actividades, entre otros temas."
     }
   ]
 }

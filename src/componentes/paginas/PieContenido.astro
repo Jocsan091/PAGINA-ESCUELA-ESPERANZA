@@ -79,18 +79,17 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
         </div>
       </section>
 
-      <section class="pie-team-section">
+      <section class="pie-organization-section">
         <div class="pie-staff-heading">
-          <span>Equipo PIE</span>
-          <h2>{pieContenido.equipoTitulo}</h2>
+          <span>Programa de Integración Escolar</span>
+          <h2>{pieContenido.organizacionTitulo}</h2>
         </div>
 
-        <div class="pie-team-table">
-          {pieContenido.personal.map((persona) => (
+        <div class="pie-organization-grid">
+          {pieContenido.organizacion.map((item) => (
             <article>
-              <h3>{persona.nombre}</h3>
-              <span>{persona.cargo}</span>
-              <strong>{persona.horas} hrs</strong>
+              <h3>{item.titulo}</h3>
+              <p>{item.texto}</p>
             </article>
           ))}
         </div>
