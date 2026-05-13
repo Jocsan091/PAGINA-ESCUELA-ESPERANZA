@@ -1,0 +1,43 @@
+---
+import { sellosEducativosDetalle } from "../../data/siteData";
+import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
+---
+
+<main class="internal-page">
+  <section class="internal-hero">
+    <div class="internal-hero-content">
+      <span class="internal-kicker">{sellosEducativosDetalle.subtitulo}</span>
+      <h1>{sellosEducativosDetalle.titulo}</h1>
+      <AccionesPaginaInterna sectionHref="/" sectionLabel="Inicio" sectionIcon="fa-house" />
+    </div>
+  </section>
+
+  <section class="seals-page-section">
+    <div class="seals-page-container">
+      <div class="seals-intro-panel">
+        <div class="seals-intro-copy">
+          <span>Proyecto Educativo Institucional</span>
+          <h2>Compromisos que forman comunidad</h2>
+          <p>{sellosEducativosDetalle.introduccion}</p>
+        </div>
+
+        <img src="/images/slide3.png" alt="Estudiantes de Escuela Esperanza" />
+      </div>
+
+      <div class="seals-grid">
+        {sellosEducativosDetalle.sellos.map((sello) => (
+          <article class="seal-card">
+            <div class="seal-card-top">
+              <span class="seal-card-number">{sello.numero}</span>
+              <span class="seal-card-icon">
+                <i class={`fa-solid ${sello.icono}`}></i>
+              </span>
+            </div>
+            <h2>{sello.titulo}</h2>
+            <p>{sello.texto}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</main>

@@ -160,13 +160,15 @@ export const instagramInicio = {
 export const accesosCircularesInicio = [
   {
     titulo: "Mision de la escuela",
-    texto: textoTemporal,
+    texto:
+      "Promover una educacion que ofrezca experiencias de aprendizaje creativas e innovadoras.",
     href: rutas.misionVision,
     icono: "fa-compass"
   },
   {
     titulo: "Vision de la escuela",
-    texto: textoTemporal,
+    texto:
+      "Ser reconocida por su formacion academica sustentada en un trabajo creativo, innovador y de excelencia.",
     href: rutas.misionVision,
     icono: "fa-eye"
   }
@@ -183,16 +185,57 @@ export const seccionesInstitucionalesPagina = [
 export const misionVisionDetalle = {
   subtitulo: "Nuestra Escuela",
   titulo: "Mision y vision",
+  lema: "Escuela Esperanza: “Compromiso y Acción”",
   secciones: [
     {
-      titulo: "Mision de la escuela",
+      titulo: "Misión de la escuela",
       icono: "fa-compass",
-      texto: [textoTemporal, textoTemporal]
+      texto: [
+        "Promover una educación que ofrezca experiencias de aprendizaje creativas e innovadoras, que proporcionen a los estudiantes el desarrollo de las habilidades para el siglo XXI y herramientas tecnológicas, medioambientales, idiomáticas, deportivas y artísticas, para insertarse en la educación media con autonomía, responsabilidad e integridad."
+      ]
     },
     {
-      titulo: "Vision de la escuela",
+      titulo: "Visión de la escuela",
       icono: "fa-eye",
-      texto: [textoTemporal, textoTemporal]
+      texto: [
+        "La Escuela Esperanza será reconocida por su formación académica, la cual estará sustentada en un trabajo creativo, innovador y de excelencia que permitirá a los estudiantes desarrollar la autonomía, responsabilidad e integridad para poder desenvolverse adecuadamente en la sociedad del siglo XXI o Sociedad Digital."
+      ]
+    }
+  ]
+};
+
+export const sellosEducativosDetalle = {
+  subtitulo: "Nuestra Escuela",
+  titulo: "Sellos educativos",
+  introduccion:
+    "Los sellos educativos orientan el Proyecto Educativo Institucional de la Escuela Esperanza y expresan los compromisos formativos que guian la vida escolar.",
+  sellos: [
+    {
+      numero: "1",
+      titulo: "Educación Integral",
+      icono: "fa-people-group",
+      texto:
+        "superación académica a partir de una educación inclusiva, integral y participativa."
+    },
+    {
+      numero: "2",
+      titulo: "Autonomía y Responsabilidad",
+      icono: "fa-person-chalkboard",
+      texto:
+        "promoción y desarrollo de la autonomía y responsabilidad de la comunidad educativa, para mejorar la calidad de la educación que impartimos."
+    },
+    {
+      numero: "3",
+      titulo: "Educación Medioambiental",
+      icono: "fa-leaf",
+      texto: "educación para el desarrollo de la conciencia ambiental."
+    },
+    {
+      numero: "4",
+      titulo: "Idioma Inglés",
+      icono: "fa-language",
+      texto:
+        "adquisición de herramientas idiomáticas básicas por parte de los estudiantes de nuestra escuela como parte de su formación personal y posteriormente profesional y laboral."
     }
   ]
 };

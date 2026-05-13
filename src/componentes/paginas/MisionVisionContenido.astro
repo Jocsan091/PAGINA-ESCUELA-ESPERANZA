@@ -14,6 +14,10 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
 
   <section class="mission-page-section">
     <div class="mission-page-container">
+      <div class="mission-page-motto">
+        <span>{misionVisionDetalle.lema}</span>
+      </div>
+
       {misionVisionDetalle.secciones.map((seccion) => (
         <article class="mission-panel">
           <div class="mission-panel-icon">
