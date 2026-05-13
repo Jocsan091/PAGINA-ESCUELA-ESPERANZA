@@ -973,14 +973,6 @@
   text-align: justify;
 }
 
-.info-page-intro--story .info-page-copy p:first-of-type {
-  padding: 18px 20px;
-  background: var(--gris-muy-claro);
-  border-left: 5px solid var(--verde-principal);
-  border-radius: 8px;
-  font-weight: 700;
-}
-
 .info-page-intro--story .info-page-copy p + p {
   margin-top: 14px;
 }
@@ -2203,10 +2195,6 @@
     font-size: 0.94rem;
     line-height: 1.65;
     text-align: left;
-  }
-
-  .info-page-intro--story .info-page-copy p:first-of-type {
-    padding: 14px 16px;
   }
 
   .info-page-story-top {
