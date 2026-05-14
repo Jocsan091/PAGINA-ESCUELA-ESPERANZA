@@ -10,6 +10,7 @@ interface Props {
 
 const { directiva } = Astro.props;
 const integrantes = await listarPerfilesPorGrupo(directiva.slug);
+const secciones = directiva.secciones ?? [{ titulo: directiva.titulo, texto: directiva.descripcion }];
 ---
 
 <main class="internal-page">
@@ -58,9 +59,17 @@ const integrantes = await listarPerfilesPorGrupo(directiva.slug);
 
       <section class="about-info-block directory-description-block">
         <h2>{directiva.titulo}</h2>
-        {directiva.descripcion.map((parrafo) => (
-          <p>{parrafo}</p>
-        ))}
+
+        <div class="directory-info-sections">
+          {secciones.map((seccion) => (
+            <article class="directory-info-section">
+              <h3>{seccion.titulo}</h3>
+              {seccion.texto.map((parrafo) => (
+                <p>{parrafo}</p>
+              ))}
+            </article>
+          ))}
+        </div>
       </section>
     </div>
   </section>

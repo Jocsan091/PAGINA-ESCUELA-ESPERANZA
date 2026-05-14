@@ -545,8 +545,30 @@
   margin-top: 56px;
 }
 
-.directory-description-block p + p {
-  margin-top: 14px;
+.directory-info-sections {
+  display: grid;
+  gap: 16px;
+}
+
+.directory-info-section {
+  padding: 20px;
+  background: rgba(91, 156, 102, 0.08);
+  border: 1px solid var(--borde-suave);
+  border-left: 5px solid var(--verde-principal);
+  border-radius: 8px;
+}
+
+.directory-info-section h3 {
+  margin-bottom: 10px;
+  font-family: var(--fuente-titulos);
+  color: var(--verde-oscuro);
+  font-size: 1.45rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.directory-info-section p + p {
+  margin-top: 12px;
 }
 
 .workshops-intro-panel {
