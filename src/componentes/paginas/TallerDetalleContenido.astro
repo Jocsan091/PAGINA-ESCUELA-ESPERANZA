@@ -36,6 +36,7 @@ const { taller } = Astro.props;
           <img src={taller.imagen} alt={taller.titulo} />
 
           <div>
+            {taller.ciclo && <span class="workshop-detail-cycle">{taller.ciclo}</span>}
             <h2>{taller.titulo}</h2>
             {taller.descripcion.map((parrafo) => (
               <p>{parrafo}</p>

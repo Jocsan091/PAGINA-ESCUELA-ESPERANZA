@@ -19,13 +19,14 @@ import AccionesPaginaInterna from "./AccionesPaginaInterna.astro";
           <span>Talleres escolares</span>
           <h2>Actividades disponibles</h2>
         </div>
-        <p>Escuela Esperanza Escuela Esperanza Escuela Esperanza Escuela Esperanza.</p>
+        <p>Espacios de aprendizaje, participación y desarrollo integral para estudiantes de primer y segundo ciclo básico.</p>
       </section>
 
       <div class="workshop-grid">
         {talleres.map((taller) => (
           <a href={taller.href} class="workshop-card workshop-card--link">
             <img src={taller.imagen} alt={taller.titulo} />
+            {taller.ciclo && <span class="workshop-card-cycle">{taller.ciclo}</span>}
             <h2>{taller.titulo}</h2>
             <p>{taller.descripcion[0]}</p>
             <i class="fa-solid fa-arrow-right"></i>

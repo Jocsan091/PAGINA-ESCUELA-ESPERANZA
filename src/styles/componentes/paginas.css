@@ -392,11 +392,35 @@
 
 .workshop-card--link p {
   margin: 14px 0 22px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .workshop-card--link i {
   align-self: flex-end;
   color: var(--verde-principal);
+}
+
+.workshop-card-cycle,
+.workshop-detail-cycle {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  min-height: 30px;
+  margin-bottom: 12px;
+  padding: 6px 10px;
+  background: var(--verde-principal);
+  color: var(--blanco);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.workshop-detail-cycle {
+  margin-bottom: 14px;
 }
 
 .directory-detail-section {

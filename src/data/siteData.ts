@@ -114,14 +114,42 @@ export const talleres = [
     slug: "voleibol",
     href: `${rutas.talleres}voleibol/`,
     imagen: "/images/slide11.png",
-    descripcion: [textoTemporal, textoTemporal]
+    ciclo: "2° ciclo",
+    descripcion: [
+      "Este taller está enfocado en la enseñanza y práctica del voleibol como deporte colectivo, comenzando desde sus fundamentos básicos. A lo largo de las sesiones se trabajan habilidades técnicas como el pase, saque y recepción, junto con aspectos tácticos simples del juego. Además, se promueve de manera constante el trabajo en equipo, la comunicación y el respeto entre compañeros, favoreciendo un ambiente de aprendizaje colaborativo y participativo."
+    ]
   },
   {
     titulo: "Taller de Futsal",
     slug: "futsal",
     href: `${rutas.talleres}futsal/`,
     imagen: "/images/slide22.png",
-    descripcion: [textoTemporal, textoTemporal]
+    ciclo: "2° ciclo",
+    descripcion: [
+      "El taller de futsal tiene como objetivo desarrollar las habilidades propias de este deporte colectivo, iniciando desde lo más básico. Se trabajan fundamentos técnicos como el control del balón, pase, conducción y finalización, incorporando progresivamente situaciones de juego real. Al igual que en voleibol, se fomenta el trabajo en equipo, la toma de decisiones y el compañerismo, promoviendo valores deportivos dentro y fuera de la cancha."
+    ]
+  },
+  {
+    titulo: "Taller Deportivo",
+    slug: "deportivo",
+    href: `${rutas.talleres}deportivo/`,
+    imagen: "/images/slide33.png",
+    ciclo: "1° ciclo",
+    descripcion: [
+      "Este taller está orientado al desarrollo de las habilidades motrices básicas en estudiantes de primer ciclo, tales como correr, saltar, lanzar y coordinar movimientos. A través de una metodología lúdica y dinámica, se busca fortalecer el compañerismo y la participación activa. Las actividades se organizan de manera alternada, intercalando una semana de futsal y otra de handball, con el propósito de estimular tanto las habilidades óculo-podales como las óculo-manuales, favoreciendo un desarrollo integral en los estudiantes."
+    ]
+  },
+  {
+    titulo: "Taller de ingles",
+    slug: "ingles",
+    href: `${rutas.talleres}ingles/`,
+    imagen: "/images/slide2.png",
+    ciclo: "2° ciclo",
+    descripcion: [
+      "El Taller de Idioma Inglés está orientado a estudiantes de segundo ciclo básico y tiene como propósito fortalecer el aprendizaje del idioma de manera dinámica, participativa y cercana a la realidad de los niños y niñas. A través de actividades lúdicas, juegos, canciones, diálogos, proyectos y uso de recursos audiovisuales, se busca desarrollar habilidades comunicativas básicas en comprensión y expresión oral y escrita.",
+      "El taller promueve un ambiente inclusivo y motivador, donde los estudiantes pueden adquirir vocabulario y estructuras simples del idioma inglés relacionadas con situaciones cotidianas, favoreciendo la confianza, la creatividad y el trabajo colaborativo. Asimismo, se fomenta el interés por otras culturas y el desarrollo de competencias necesarias para enfrentar los desafíos educativos y sociales del mundo actual.",
+      "La metodología considera estrategias activas y contextualizadas, adecuadas a la etapa de desarrollo de los estudiantes de segundo ciclo, fortaleciendo el aprendizaje significativo y el gusto por el idioma inglés como herramienta de comunicación global."
+    ]
   }
 ];
 
