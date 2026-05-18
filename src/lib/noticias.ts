@@ -49,7 +49,7 @@ export function getNewsPageUrl(page: number) {
 }
 
 export function getNewsImage(image?: string) {
-  return image || "/images/slide3.png";
+  return image || "/images/slide8.jpeg";
 }
 
 export function getNewsDate(noticia: Noticia) {

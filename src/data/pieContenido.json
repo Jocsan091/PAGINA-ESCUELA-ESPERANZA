@@ -4,7 +4,7 @@
   "etiqueta": "Programa de Integración Escolar",
   "encabezado": "Plan de Gestión Programa de Integración Escolar",
   "introduccion": "El Programa de Integración Escolar es una de las instancias de apoyo integral que nuestro establecimiento pone a disposición de todos aquellos estudiantes que han sido diagnosticados con alguna de las Necesidades Educativas Especiales, según los criterios diagnóstico que establece el Decreto de Ley Nº 170/09 de la sección de Educación Especial del Ministerio de Educación.",
-  "imagenPrincipal": "/images/slide11.png",
+  "imagenPrincipal": "/images/slide3.png",
   "destacados": [
     {
       "numero": "2026",
@@ -26,14 +26,14 @@
         "El objetivo del Programa de Integración Escolar de la escuela Esperanza está construido sobre la base conceptual de la Inclusión, uno de los sellos educativos de nuestro Proyecto Educativo Institucional, que, desde un punto de vista integral, propende a la aceptación y riqueza que podemos encontrar en las diferencias y los aportes que se pueden construir desde la individualidad.",
         "En esta labor se encuentra trabajando el Equipo de Integración desde sus inicios, hasta hoy, donde ya somos una realidad consolidada en constante proceso de evaluación de nuestras prácticas y mejora."
       ],
-      "imagen": "/images/slide1.png"
+      "imagen": "/images/slide9.jpeg"
     },
     {
       "titulo": "Objetivo General",
       "texto": [
         "Contribuir en el mejoramiento continuo de la calidad de la educación, favoreciendo la inclusión y atención a la diversidad de todos los y las estudiantes del establecimiento en un ambiente de respeto y buen trato, promoviendo el logro de los objetivos académicos, desarrollando habilidades, cognitivas y sociales, especialmente de aquellos que presenten una Necesidad Educativa Especial, con ello favorecer el logro progresivo de aprendizajes."
       ],
-      "imagen": "/images/slide2.png"
+      "imagen": "/images/slide6.jpeg"
     },
     {
       "titulo": "Proceso de atención",
@@ -41,7 +41,7 @@
         "En nuestra escuela que cuentan con JEC, los apoyos se brindan con la contratación de la educadora diferencial con un mínimo de 10 horas cronológicas por curso, contando con un total de ocho horas pedagógicas en aula común.",
         "La Escuela cuenta con un aula de recurso. Este espacio está adaptado en espacio y material específico para el trabajo con estudiantes pertenecientes al PIE."
       ],
-      "imagen": "/images/slide3.png"
+      "imagen": "/images/slide4.jpeg"
     }
   ],
   "necesidades": [

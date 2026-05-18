@@ -8,7 +8,7 @@ const noticias = defineCollection({
     title: z.string(),
     description: z.string().optional().default(""),
     date: z.coerce.date().optional(),
-    image: z.string().default("/images/slide3.png"),
+    image: z.string().default("/images/slide8.jpeg"),
     gallery: z
       .array(z.union([z.string(), z.object({ foto_url: z.string() })]))
       .optional()

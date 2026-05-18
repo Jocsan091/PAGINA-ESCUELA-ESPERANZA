@@ -52,7 +52,7 @@ export const slides = [
     href: rutas.inicio
   },
   {
-    image: "/images/slide2.png",
+    image: "/images/slide5.jpeg",
     title: "Visita Nuestra escuela\nY encontraras esperanza",
     subtitle: "Escuela Esperanza",
     extra: "",
@@ -60,7 +60,7 @@ export const slides = [
     href: rutas.quienesSomos
   },
   {
-    image: "/images/slide3.png",
+    image: "/images/slide9.jpeg",
     title: "Talleres\nExtraescolares 2026",
     subtitle: "Educacion basica - Escuela Esperanza",
     extra: "",
@@ -78,13 +78,13 @@ export const quienesSomosResumen = {
   texto: textoTemporal,
   boton: "Leer mas",
   href: rutas.quienesSomos,
-  imagen: "/images/slide2.png"
+  imagen: "/images/slide4.jpeg"
 };
 
 export const quienesSomosDetalle = {
   titulo: "Escuela Esperanza",
   texto: [textoTemporal, textoTemporal, textoTemporal],
-  imagen: "/images/slide2.png"
+  imagen: "/images/slide7.jpeg"
 };
 
 export const talleres = [
@@ -92,7 +92,7 @@ export const talleres = [
     titulo: "Taller de Programación y Robótica",
     slug: "programacion-robotica",
     href: `${rutas.talleres}programacion-robotica/`,
-    imagen: "/images/slide3.png",
+    imagen: "/images/slide6.jpeg",
     descripcion: [
       "El taller de programación y robótica, utilizamos plataformas de Ofimática para que nuestros alumnos puedan comprender su uso y la importancia en su enseñanza en general, utilizamos Code.org el cual es una plataforma que por bloques nuestros alumnos aprenden a programar además de revisar código de los trabajos que realizan, utilizamos nuestros Robots LEGO Y VEX.",
       "Nuestros alumnos participan de las ferias de Robótica realizadas en distintos establecimientos de la región obteniendo resultados enriquecedores, conociendo proyectos de otros colegios, liceos y universidades , aportando conocimientos y adquiriendo experiencia, además de participar de concursos de robot’s etc. Con los cuales han tenido buenas experiencias.",
@@ -129,21 +129,26 @@ export const talleres = [
     titulo: "Taller de musica",
     slug: "musica",
     href: `${rutas.talleres}musica/`,
-    imagen: "/images/slide1.png",
-    descripcion: [textoTemporal, textoTemporal]
+    imagen: "/images/slide8.jpeg",
+    descripcion: [
+      "El taller de música está orientado a que los alumnos puedan desarrollar sus habilidades artísticas, motrices e intelectuales a través de la música. El objetivo de este taller es formar una banda con los estudiantes y que cada uno de ellos pueda ejecutar un instrumento musical.",
+      "Se trabaja con distintos instrumentos, entre ellos trompetas, saxofón, pianos, guitarras, bajos y batería. Se forma al alumno en su instrumento de manera particular y grupal, realizando ensayos y presentaciones que ayudan a aprender a trabajar en equipo, fomentan el respeto y fortalecen la integración entre compañeros.",
+      "Las presentaciones de la banda ayudan a que los alumnos pierdan el miedo al público y desarrollen más personalidad al ejecutar su instrumento. También permiten hacer visible el trabajo de los estudiantes ante sus pares, apoderados y profesores, como ocurre en las licenciaturas de los alumnos que egresan de octavo básico.",
+      "El arte, y en especial la música, tiene grandes beneficios en el desarrollo de los alumnos, ayudando a la concentración, el respeto y la constancia, además de fortalecer la disciplina y el compromiso."
+    ]
   },
   {
     titulo: "Taller de danza",
     slug: "danza",
     href: `${rutas.talleres}danza/`,
-    imagen: "/images/slide2.png",
+    imagen: "/images/slide4.jpeg",
     descripcion: [textoTemporal, textoTemporal]
   },
   {
     titulo: "Taller de Voleibol",
     slug: "voleibol",
     href: `${rutas.talleres}voleibol/`,
-    imagen: "/images/slide11.png",
+    imagen: "/images/slide2.png",
     ciclo: "2° ciclo",
     descripcion: [
       "Este taller está enfocado en la enseñanza y práctica del voleibol como deporte colectivo, comenzando desde sus fundamentos básicos. A lo largo de las sesiones se trabajan habilidades técnicas como el pase, saque y recepción, junto con aspectos tácticos simples del juego. Además, se promueve de manera constante el trabajo en equipo, la comunicación y el respeto entre compañeros, favoreciendo un ambiente de aprendizaje colaborativo y participativo."
@@ -153,7 +158,7 @@ export const talleres = [
     titulo: "Taller de Futsal",
     slug: "futsal",
     href: `${rutas.talleres}futsal/`,
-    imagen: "/images/slide22.png",
+    imagen: "/images/slide5.jpeg",
     ciclo: "2° ciclo",
     descripcion: [
       "El taller de futsal tiene como objetivo desarrollar las habilidades propias de este deporte colectivo, iniciando desde lo más básico. Se trabajan fundamentos técnicos como el control del balón, pase, conducción y finalización, incorporando progresivamente situaciones de juego real. Al igual que en voleibol, se fomenta el trabajo en equipo, la toma de decisiones y el compañerismo, promoviendo valores deportivos dentro y fuera de la cancha."
@@ -163,7 +168,7 @@ export const talleres = [
     titulo: "Taller Deportivo",
     slug: "deportivo",
     href: `${rutas.talleres}deportivo/`,
-    imagen: "/images/slide33.png",
+    imagen: "/images/slide7.jpeg",
     ciclo: "1° ciclo",
     descripcion: [
       "Este taller está orientado al desarrollo de las habilidades motrices básicas en estudiantes de primer ciclo, tales como correr, saltar, lanzar y coordinar movimientos. A través de una metodología lúdica y dinámica, se busca fortalecer el compañerismo y la participación activa. Las actividades se organizan de manera alternada, intercalando una semana de futsal y otra de handball, con el propósito de estimular tanto las habilidades óculo-podales como las óculo-manuales, favoreciendo un desarrollo integral en los estudiantes."
@@ -173,7 +178,7 @@ export const talleres = [
     titulo: "Taller de ingles",
     slug: "ingles",
     href: `${rutas.talleres}ingles/`,
-    imagen: "/images/slide2.png",
+    imagen: "/images/slide9.jpeg",
     ciclo: "2° ciclo",
     descripcion: [
       "El Taller de Idioma Inglés está orientado a estudiantes de segundo ciclo básico y tiene como propósito fortalecer el aprendizaje del idioma de manera dinámica, participativa y cercana a la realidad de los niños y niñas. A través de actividades lúdicas, juegos, canciones, diálogos, proyectos y uso de recursos audiovisuales, se busca desarrollar habilidades comunicativas básicas en comprensión y expresión oral y escrita.",
@@ -206,12 +211,12 @@ export const instagramInicio = {
   nombre: "Escuela Esperanza",
   href: "https://www.instagram.com/escuela_esperanzatalca/",
   publicaciones: [
-    "/images/slide1.png",
-    "/images/slide2.png",
-    "/images/slide3.png",
-    "/images/slide11.png",
-    "/images/slide22.png",
-    "/images/slide33.png"
+    "/images/ig1.png",
+    "/images/ig2.png",
+    "/images/ig3.png",
+    "/images/ig4.png",
+    "/images/ig5.png",
+    "/images/ig6.png"
   ]
 };
 
